@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.193) 0,
+      rgba(0, 0, 0, 0.193) 0,
+      rgba(0, 0, 0, 0.682) 0
+    ),
+    url("../img/VN-en-20240326-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+
+  background-size: cover;
+  background-position: center;
+}
+.loginContainer {
+  height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.Logo {
+  width: 15%;
+}
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+}
+.logininputWrapper {
+  padding: 3rem 4rem;
+  background: rgba(0, 0, 0, 0.627);
+  width: 40%;
+  max-width: 70%;
+}
+.input1 {
+  margin-top: 1rem;
+}
+.email-phone-input,
+.password-input {
+  width: 100%;
+  filter: opacity(100%);
+  color: inherit;
+  padding: 1.2rem 0.9rem;
+  border: 2px solid #3c3c3c72;
+  border-radius: 5px;
+  background-color: rgba(1, 1, 1, 0.518);
+  cursor: pointer;
+  margin: 0.5rem 0;
+}
+.inputWrapper input::placeholder {
+  font-weight: 600;
+  font-size: medium;
+  transition: all 0.3s;
+}
+.inputWrapper input:hover::placeholder {
+  letter-spacing: 1px;
+}
+.submitBtn {
+  background: rgb(229, 9, 20);
+  padding: 0.65rem 1.5rem;
+  width: 100%;
+  text-align: center;
+  border-radius: 0.1875rem;
+  transition: all 0.3s;
+  margin-top: 1rem;
+}
+.submitBtn:hover {
+  background: rgb(171, 0, 9);
+}
+.signupLinkWrapper {
+  margin-top: 1rem;
+  padding: 0.5rem 0;
+  color: rgba(255, 255, 255, 0.7);
+}
+.signupLink {
+  margin-left: 3%;
+  color: #fff;
+  text-decoration: none;
+}

@@ -1,0 +1,19 @@
+.footerContainer1 {
+  background: #0000009b;
+  padding: 5% 0;
+}
+.ask,
+.content {
+  max-width: 80%;
+  margin: 0 auto;
+  line-height: 30px;
+}
+.ask a,
+.content a {
+  color: rgba(255, 255, 255, 0.7);
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  line-height: 30px;
+}

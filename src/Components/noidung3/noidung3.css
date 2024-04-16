@@ -1,0 +1,16 @@
+.cC3Container {
+  background: #000;
+  height: 80vh;
+  border-top: 8px solid rgb(44, 44, 44);
+}
+.cC3LeftCard {
+  color: #fff;
+}
+.devicePileImg {
+  position: relative;
+  z-index: 9999;
+}
+.cC3Video {
+  top: 272%;
+  transform: scale(0.87);
+}

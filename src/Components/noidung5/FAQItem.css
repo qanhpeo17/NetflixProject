@@ -1,0 +1,33 @@
+.faq-item {
+  width: 100%;
+}
+.faq-item .answer {
+  max-height: 1000px; /* Giá trị max-height lớn hơn chiều cao tối đa của câu trả lời */
+  transition: max-height 0.3s ease; /* Thêm hiệu ứng transition cho max-height */
+}
+
+#question {
+  background-color: #252525;
+  color: #fff;
+  padding: 2rem 2rem;
+  cursor: pointer;
+  transition: all 0.3s;
+  font-size: 150%;
+}
+svg {
+  color: #fff;
+}
+#question:hover {
+  background-color: #434343;
+}
+.answer {
+  background-color: #3e3e3e;
+  color: #ffffff;
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.question,
+.answer {
+  font-size: 24px;
+}

@@ -1,0 +1,20 @@
+.footerContainer {
+  background: #000;
+  padding: 5% 0;
+  border-top: 8px solid rgb(44, 44, 44);
+}
+.ask,
+.content {
+  max-width: 80%;
+  margin: 0 auto;
+  line-height: 30px;
+}
+.ask a,
+.content a {
+  color: rgba(255, 255, 255, 0.7);
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  line-height: 30px;
+}
